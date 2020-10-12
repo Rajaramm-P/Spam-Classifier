@@ -1,0 +1,40 @@
+body {
+	background-color: #EEEEEE;
+	font-family: Helvetica, Arial, sans-serif;
+}
+h1 {
+	margin: 0;
+}
+
+#container1 {
+	background-color: white;
+	width: 1400px;
+	height: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#header1 {
+	background-color: #66CCFF;
+	text-align: center;
+	padding: 10px;
+}
+
+#ml-container {
+	position: fixed;
+	top: 200px;
+	left: 65x;
+	width: 1400px;
+	float: center;
+	text-align: center;
+}
+
+#footer1 {
+	position: fixed;
+	top: 650px;
+	left: 80px;
+	clear: both;
+	padding: 10px;
+	background-color: #999999;
+	color: white;
+	font-size: 12px;
+}

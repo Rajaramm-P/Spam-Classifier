@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spam_Classifier - Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='spam_result_styles.css') }}">
+</head>
+<body>
+		<div id="container2">
+			<div id='header2'>
+				<h1>Spam Msg Classifier Application</h1>
+			</div>
+			<div id='ml-container1'>
+				<p>Prediction of the entered text:</p>
+				{% if prediction == 1%}
+				<h2 style="color:red;">Spam</h2>
+				{% elif prediction == 0%}
+				<h2 style="color:blue;">Not a Spam (It is a normal msg)</h2>
+				{% endif %}
+			</div>
+		</div>
+</body>
+
+			<div id='footer2'>
+				Copyright &copy; 2020 Rajaramm.P
+			</div>
+</html>
